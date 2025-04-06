@@ -312,7 +312,7 @@ def train_model():
     # Initialize TensorBoard
     writer = SummaryWriter("runs/optimized_dehazing")
 
-    num_epochs = 500
+    num_epochs = 50
     best_val_ssim = 0.0
     history = {
         "train": [],
